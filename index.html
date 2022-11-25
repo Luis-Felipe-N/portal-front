@@ -26,9 +26,8 @@
   <link rel="shortcut icon" href="images/favicon.png" />
 </head>
 <body>
-  <div class="container-scroller">
-
-    <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+<div class="container-scroller">
+<nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
         <div class="me-3">
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
@@ -36,49 +35,22 @@
           </button>
         </div>
         <div>
-          <a class="navbar-brand brand-logo" href="index.html">
-            Portal transp
+          <a class="navbar-brand brand-logo fw-bold" href="/portal/">
+            Brejinho
           </a>
-          <a class="navbar-brand brand-logo-mini" href="index.html">
-            
+          <a class="navbar-brand brand-logo-mini fw-bold" href="/portal/">
+            MC GD
           </a>
         </div>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-top"> 
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item dropdown d-none d-lg-block">
-            <a class="nav-link dropdown-bordered dropdown-toggle dropdown-toggle-split" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Select Category </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="messageDropdown">
-              <a class="dropdown-item py-3" >
-                <p class="mb-0 font-weight-medium float-left">Select category</p>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">Bootstrap Bundle </p>
-                  <p class="fw-light small-text mb-0">This is a Bundle featuring 16 unique dashboards</p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">Angular Bundle</p>
-                  <p class="fw-light small-text mb-0">Everything you’ll ever need for your Angular projects</p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">VUE Bundle</p>
-                  <p class="fw-light small-text mb-0">Bundle of 6 Premium Vue Admin Dashboard</p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">React Bundle</p>
-                  <p class="fw-light small-text mb-0">Bundle of 8 Premium React Admin Dashboard</p>
-                </div>
-              </a>
-            </div>
+        <ul class="navbar-nav">
+          <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
+            <h1 class="welcome-text">
+              MC Gestão de Documentos, <span class="text-primary fw-bold">Brejinho de Nazaré</span></h1>
           </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item d-none d-lg-block">
             <div id="datepicker-popup" class="input-group date datepicker navbar-date-picker">
               <span class="input-group-addon input-group-prepend border-right">
@@ -87,96 +59,12 @@
               <input type="text" class="form-control">
             </div>
           </li>
-          <li class="nav-item">
-            <form class="search-form" action="#">
-              <i class="icon-search"></i>
-              <input type="search" class="form-control" placeholder="Search Here" title="Search here">
-            </form>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link count-indicator" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
-              <i class="icon-mail icon-lg"></i>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="notificationDropdown">
-              <a class="dropdown-item py-3 border-bottom">
-                <p class="mb-0 font-weight-medium float-left">You have 4 new notifications </p>
-                <span class="badge badge-pill badge-primary float-right">View all</span>
-              </a>
-              <a class="dropdown-item preview-item py-3">
-                <div class="preview-thumbnail">
-                  <i class="mdi mdi-alert m-auto text-primary"></i>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject fw-normal text-dark mb-1">Application Error</h6>
-                  <p class="fw-light small-text mb-0"> Just now </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item py-3">
-                <div class="preview-thumbnail">
-                  <i class="mdi mdi-settings m-auto text-primary"></i>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject fw-normal text-dark mb-1">Settings</h6>
-                  <p class="fw-light small-text mb-0"> Private message </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item py-3">
-                <div class="preview-thumbnail">
-                  <i class="mdi mdi-airballoon m-auto text-primary"></i>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject fw-normal text-dark mb-1">New user registration</h6>
-                  <p class="fw-light small-text mb-0"> 2 days ago </p>
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="nav-item dropdown"> 
-            <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="icon-bell"></i>
-              <span class="count"></span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="countDropdown">
-              <a class="dropdown-item py-3">
-                <p class="mb-0 font-weight-medium float-left">You have 7 unread mails </p>
-                <span class="badge badge-pill badge-primary float-right">View all</span>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="images/faces/face10.jpg" alt="image" class="img-sm profile-pic">
-                </div>
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">Marian Garner </p>
-                  <p class="fw-light small-text mb-0"> The meeting is cancelled </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="images/faces/face12.jpg" alt="image" class="img-sm profile-pic">
-                </div>
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">David Grey </p>
-                  <p class="fw-light small-text mb-0"> The meeting is cancelled </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="images/faces/face1.jpg" alt="image" class="img-sm profile-pic">
-                </div>
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">Travis Jenkins </p>
-                  <p class="fw-light small-text mb-0"> The meeting is cancelled </p>
-                </div>
-              </a>
-            </div>
-          </li>
           <li class="nav-item dropdown d-none d-lg-block user-dropdown">
             <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-              <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="Profile image"> </a>
+              <img class="img-xs rounded-circle" src="https://userpics.craftwork.design/images/e-commerce.png" alt="Profile image"> </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
               <div class="dropdown-header text-center">
-                <img class="img-md rounded-circle" src="images/faces/face8.jpg" alt="Profile image">
+                <img class="img-md rounded-circle" src="https://userpics.craftwork.design/images/e-commerce.png" alt="Profile image">
                 <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
                 <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
               </div>
@@ -217,19 +105,20 @@
         <div class="collapse" id="ui-basic">
             <ul class="nav flex-column sub-menu">
             <li class="nav-item"> <a class="nav-link" href="documento.html">Adicionar documento</a></li>
-            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Criar categoria</a></li>
+            <li class="nav-item"> <a class="nav-link" href="documento.html">Criar categoria</a></li>
             </ul>
         </div>
     </li>
-
+    
 </ul>
 </nav>
       
-        <div class="main-panel">
+      <!-- partial -->
+      <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-sm-12">
-
+             
                 <div class="card card-rounded">
                     <div class="card-body">
                         <div class="d-sm-flex justify-content-between align-items-start">
@@ -238,44 +127,181 @@
                             </div>
                             
                         </div>
-                        <form class="mt-2">
-                            <div class="form-group">
-                                <label>Titulo</label>
-                                <input type="search" class="form-control form-control-lg" placeholder="Compra de software" aria-label="Compra de software">
+                        <form class="mt-2 d-flex align-items-end gap-2 justify-content-between">
+                            <div class="d-flex gap-2 w-100">
+                              <div class="form-group flex-grow-1 mb-0">
+                                  <label>Título</label>
+                                  <input name="titulo" type="search" class="form-control form-control-lg" placeholder="Insira o titulo do documento" aria-label="Insira o titulo do documento">
+                              </div>
+                              <div class="form-group mb-0">
+                                <label>Ano</label>
+                                <select placeholder="Ano do Documento" name="ano" class="form-control form-control-lg">
+                                  <option disabled="" value="" selected="">Escolha o ano</option>
+                                  <option value="">Todos</option>
+                                  <option value="2022">2021</option>
+                                  <option value="2022">2022</option>
+                                </select>
+                              </div>
+                              <div class="form-group mb-0">
+                                <label>Mês</label>
+                                <select placeholder="Ano do Documento" name="mes" class="form-control form-control-lg">
+                                  <option disabled="" value="" selected="">Escolha o mês</option>
+                                  <option value="">Todos</option>
+                                  <option value="1">Janeiro</option>
+                                  <option value="2">Fevereiro</option>
+                                  <option value="3">Março</option>
+                                  <option value="4">Abril</option>
+                                  <option value="5">Maio</option>
+                                  <option value="6">Junho</option>
+                                  <option value="7">Julho</option>
+                                  <option value="8">Agosto</option>
+                                  <option value="9">Setembro</option>
+                                  <option value="10">Outubro</option>
+                                  <option value="11">Novembro</option>
+                                  <option value="12">Dezembro</option>
+                                </select>
+                              </div>
                             </div>
+                            
+                            <div class="d-flex">
+                              <button type="submit" class="btn btn-primary btn-block ml-auto d-flex align-items-center gap-2">
+                                <i class="mdi mdi-file-find"></i>
+                                Pesquisar
+                              </button>
+                            </div>
+
                         </form>
                     </div>
                 </div>
-               <div class="card card-rounded    mt-4">
+               <div class="card card-rounded mt-4">
                 <div class="card-body">
                   <h4 class="card-title">Documentos</h4>
                   <div class="table-responsive">
                     <table class="table">
                       <thead>
                         <tr>
-                          <th>Titulo</th>
+                          <th>Título</th>
+                          <th>Categoria</th>
                           <th>Autor</th>
+                          <th>Data de postagem</th>
+                          <th>Deletar</th>
                           <th>Arquivo</th>
                         </tr>
                       </thead>
-                     <tbody>
+                      <tbody>
                         
                           <tr>
+                            <td>Facultativo</td>
                             <td>Portaria</td>
-                            <td>Cléber machado</td>
-                            
+                            <td>Luis Felipe Nunes</td>
+                            <td>Nov. 25, 2022</td>
                             <td>
-                              <a target="_black" href="documentos/doc.pdf">Visualizar</a>
+                              
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Deletar
+                            </button>
+                            
+                            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Tem certeza que deseja deletar o documento "Facultativo"?</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não, fechar</button>
+            <a class="btn-primary btn" href="/portal/delete/20/">Deletar</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
                             </td>
+                            <td>
+                              <a href="/media/documents/pdfs/atividade3_C75uqLB.pdf">Visualizar</a>
+                            </td>
+                            
                           </tr>
                         
                           <tr>
-                            <td>Despacho</td>
-                            <td>Cléber machado</td>
-                            
+                            <td>Facultativo Fim de ano</td>
+                            <td>Portaria</td>
+                            <td>Luis Felipe Nunes</td>
+                            <td>Nov. 25, 2022</td>
                             <td>
-                              <a target="_black" href="documentos/doc.pdf">Visualizar</a>
+                              
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Deletar
+                            </button>
+                            
+                            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Tem certeza que deseja deletar o documento "Facultativo Fim de ano"?</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não, fechar</button>
+            <a class="btn-primary btn" href="/portal/delete/21/">Deletar</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
                             </td>
+                            <td>
+                              <a href="/media/documents/pdfs/SEDUC_-_Portal_do_Aluno.pdf">Visualizar</a>
+                            </td>
+                            
+                          </tr>
+                        
+                          <tr>
+                            <td>Facultativo Copa do mundo</td>
+                            <td>Portaria</td>
+                            <td>Luis Felipe Nunes</td>
+                            <td>Nov. 25, 2022</td>
+                            <td>
+                              
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Deletar
+                            </button>
+                            
+                            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Tem certeza que deseja deletar o documento "Facultativo Copa do mundo"?</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não, fechar</button>
+            <a class="btn-primary btn" href="/portal/delete/22/">Deletar</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+                            </td>
+                            <td>
+                              <a href="/media/documents/pdfs/CamScanner_11-23-2022_21.11.pdf">Visualizar</a>
+                            </td>
+                            
                           </tr>
                         
                       </tbody>
@@ -289,15 +315,20 @@
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
-    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-    <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash.</span>
-    <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. Todos direitos reservados.</span>
+    <div class="d-sm-flex justify-content-center justify-content-center">
+        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. Todos direitos reservados.</span>
     </div>
 </footer>
         <!-- partial -->
       </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- container-scroller -->
+
+    <!-- partial:partials/_navbar.html -->
+    
   </div>
-  <!-- container-scroller -->
+
 
   <!-- plugins:js -->
   <script src="static-global/start-admin/vendors/js/vendor.bundle.base.js"></script>
