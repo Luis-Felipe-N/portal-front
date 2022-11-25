@@ -1,0 +1,16 @@
+:root {
+    --color-primary: #27367f !important;
+    --color-primary-100: rgb(39, 54, 127, .1) !important;
+    --color-primary-100: rgb(39, 54, 127, .1) !important;
+    --color-primary-100: rgb(39, 54, 127, .1) !important;
+    --color-primary-100: rgb(39, 54, 127, .1) !important;
+    --color-primary-100: rgb(39, 54, 127, .1) !important;
+    --color-primary-100: rgb(39, 54, 127, .1) !important;
+    --color-primary-300: rgb(39, 54, 127, .3) !important;
+    --color-primary-200: rgb(39, 54, 127, .2) !important;
+    --color-primary-100: rgb(39, 54, 127, .1) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
